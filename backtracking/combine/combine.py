@@ -5,7 +5,8 @@ def combine(n, k):
         if len(curr) == k:
             res.append(curr[:])
             return
-        for j in range(start, n+1):
+        need = k - len(curr)
+        for j in range(start, n-(need-1)+1):
             curr.append(j)
             helper(j+1, curr)
             curr.pop()
