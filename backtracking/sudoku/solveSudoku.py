@@ -22,7 +22,7 @@ def solveSudoku(board):
                     for num in '123456789':
                         if isValid(num, row, col):
                             board[row][col] = num
-                            if(fillTHeBoard(board)): return True
+                            if fillTHeBoard(board): return True
                             board[row][col] = '.'
                     return False
         return True
