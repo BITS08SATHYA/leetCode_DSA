@@ -10,4 +10,4 @@ def fibonacci(n):
 
     return dp[n]
 
-print(fibonacci(6))
+print(fibonacci(4))
