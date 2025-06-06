@@ -17,3 +17,5 @@ def knapsack(W, wt, val, n):
         dp[index][rem_weight] = max(exclude, include)
         return dp[index][rem_weight]
     return helper(0,W)
+
+print(knapsack(50,[10,20,30], [60,100,120], 3))
