@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f1f1dc3-5e3c-466c-9760-aab22f69807e" name="Changes" comment="power sum implemented">
-      <change afterPath="$PROJECT_DIR$/recursion/permute/permute.py" afterDir="false" />
+    <list default="true" id="9f1f1dc3-5e3c-466c-9760-aab22f69807e" name="Changes" comment="palindrome with tabulation impl">
+      <change afterPath="$PROJECT_DIR$/DP/gap_strategy/longest_palindrome/01-tabulation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetCode_DSA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetCode_DSA.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DP/toh/power_sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/recursion/toh/power_sum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DP/toh/toh.py" beforeDir="false" afterPath="$PROJECT_DIR$/recursion/toh/toh.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,12 +30,15 @@
     &quot;assignee&quot;: &quot;BITS08SATHYA&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/BITS08SATHYA/leetCode_DSA.git&quot;,
-    &quot;accountId&quot;: &quot;e665d3ff-6275-4983-a46b-aaf15ec33b72&quot;
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="b37760cd-88da-46c3-95c7-2f55380058cd" />
+  </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/BITS08SATHYA/leetCode_DSA.git",
+    "accountId": "b37760cd-88da-46c3-95c7-2f55380058cd"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -63,19 +65,22 @@
     "Python.power_sum.executor": "Run",
     "Python.toh.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/sathipa/MyCompleteLearning/DSA/leetCode_DSA/recursion",
+    "last_opened_file_path": "C:/Users/SSVTC/Documents/projects/leetCode_DSA/DP/gap_strategy/longest_palindrome",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\SSVTC\Documents\projects\leetCode_DSA\DP\gap_strategy\longest_palindrome" />
       <recent name="$PROJECT_DIR$/recursion" />
       <recent name="$PROJECT_DIR$/DP/knapsack" />
     </key>
@@ -260,8 +265,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-PY-251.23774.444" />
-        <option value="bundled-python-sdk-890ed5b35930-d9c5bdb153f4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.23774.444" />
+        <option value="bundled-python-sdk-53e2683a6804-9cdd278e9d02-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.26094.141" />
       </set>
     </attachedChunks>
   </component>
@@ -372,7 +376,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748610577987</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="palindrome with tabulation impl">
+      <option name="closed" value="true" />
+      <created>1750009363678</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1750009363678</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -401,7 +413,8 @@
     <MESSAGE value="01-kth-symbol-recursion understood and implemented" />
     <MESSAGE value="tower of hanoi and josephus implemented successfully" />
     <MESSAGE value="power sum implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="power sum implemented" />
+    <MESSAGE value="palindrome with tabulation impl" />
+    <option name="LAST_COMMIT_MESSAGE" value="palindrome with tabulation impl" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/leetCode_DSA$04_climb_steps.coverage" NAME="04-climb-steps Coverage Results" MODIFIED="1748138497264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fibonnaci" />
