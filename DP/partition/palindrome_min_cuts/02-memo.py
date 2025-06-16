@@ -31,5 +31,5 @@ def min_cuts_pal_recursion(s):
 
     return partitions(0, n-1)
 
-str = 'abcabc'
+str = 'abaac'
 print(min_cuts_pal_recursion(str))
