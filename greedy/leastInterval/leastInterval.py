@@ -17,5 +17,5 @@ def leastInterval(tasks, n):
     total_slots_in_parts = parts * slots_per_part
     tasks_remaining = len(tasks) - max_freq * number_max_freq
 
-    idles = total_slots_in_parts -tasks_remaining
+    idles = max(0, total_slots_in_parts -tasks_remaining)
     return len(tasks) + idles
