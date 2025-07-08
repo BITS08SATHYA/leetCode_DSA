@@ -2,7 +2,7 @@ def minSubArrayLen(target, nums):
     left = 0
     currentSum = 0
     length = float("infinity")
-    for right in range(1, len(nums)):
+    for right in range(len(nums)):
         currentSum += nums[right]
         while currentSum >= target:
             newLength = right - left + 1
