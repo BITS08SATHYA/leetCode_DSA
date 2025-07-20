@@ -27,6 +27,20 @@ class DoublyLinkedList:
         node.next = None
         node.prev = None
 
+    def inserB(self, nodePosition, nodeInsert):
+        if self.head == nodeInsert and self.tail == nodeInsert:
+            return
+        self.remove(nodeInsert)
+
+        nodeInsert.prev = nodePosition.prev
+        nodeInsert.next = nodePosition
+
+        if nodePosition == self.head:
+            self.head = nodeInsert
+        else:
+            nodePosition.prev.next = nodeInsert
+        nodePosition.prev = nodeInsert
+
     def __str__(self):
         curr = self.head
         while curr:
