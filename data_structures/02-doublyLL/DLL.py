@@ -49,6 +49,25 @@ class DoublyLinkedList:
             if temp.value == value:
                 self.remove(temp)
 
+    def insertPosition(self, position, node):
+        curr = self.head
+        counter = 0
+        while curr != None and counter != position:
+            curr = curr.next
+            counter += 1
+        if curr != None:
+            self.insert(curr, node)
+        else:
+            if self.head == None:
+                self.head = node
+                self.tail = node
+            else:
+                self.remove(node)
+                node.next = None
+                node.prev = self.tail
+                self.tail.next = node
+                self.tail = node
+
     def __str__(self):
         curr = self.head
         while curr:
