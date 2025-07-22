@@ -39,6 +39,8 @@ class QueueLinkedList:
             # print(str(temp.value))
             temp = temp.next
         return ' -> '.join(values)
+
+
 a = Node(1)
 b = Node(2)
 c = Node(3)
