@@ -4,6 +4,10 @@ class TreeNode:
         self.left = left
         self.right = right
 
+
+# pre - order traversal
+# root - left - right
+
 def preOrderTraversal(root):
     res = []
     stack = [root]
@@ -19,3 +23,9 @@ def preOrderTraversal(root):
             stack.append(node.left)
 
     return res
+
+node = TreeNode(1)
+node.right = TreeNode(2)
+node.left = TreeNode(3)
+
+print(preOrderTraversal(node))
